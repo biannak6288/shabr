@@ -1,0 +1,27 @@
+.fw,.fh{
+  background-image: url(img/balloon-3.jpg); 
+  background-size: cover
+}
+
+h1 {
+    font-size: 120px;
+    font-family: spirax;
+    color: magenta;
+    text-align: center;
+}
+
+h2 {
+    font-family: spirax;
+    font-size: 40px;
+    text-align: center;
+}
+
+#slogan-left{
+    font-family: spirax;
+    color: magenta;
+}
+
+#slogan-right{
+    font-family: montserrat;
+    color: aqua;
+}
