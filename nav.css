@@ -1,5 +1,8 @@
 #custom-bootstrap-menu.navbar-default .navbar-brand {
-    color: rgba(0, 0, 0, 1);
+    font-size: 35px;
+    text-align: center;
+    font-family: flamenco;
+    color: rgba(255, 255, 255, 1);
 }
 #custom-bootstrap-menu.navbar-default {
     font-size: 14px;

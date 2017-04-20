@@ -1,9 +1,8 @@
 .jumbotron {
-    color: white;
-    font-family: fantasy;
+    color: aqua;
+    font-family: flamenco;
     text-align: center;
     background: rgb(200, 54, 54);
-    /* This is for ie8 and below */
     background: rgba(128, 128, 128, 0.5);
     width: 100%;
     height: 100%;
@@ -11,20 +10,12 @@
 
 h1 {
     text-align: center;
-    font-family: fantasy;
-}
-
-h5 {
-    text-align: center;
-    font-family: monospace;
-
-
-    color: gray;
-
+    font-family: flamenco;
+    color: white;
+    text-size: 40px;
 }
 
 
-/*small*/ 
     @media only screen and (min-width: 768px) {
         h1{
             font-size: 10px;
@@ -35,17 +26,22 @@ h5 {
         .nav {
             size: 100% ;
         }
-        
 
 }
 
 h4 {
-    font-family: serif;
+    font-family: flamenco;
     color: white;
+    text-align: center;
+}
+
+h5 {
+    font-family: flamenco;
+    font-size: 20px;
+    text-align: center;
 }
 
 #gallery {
-    background-image: ".../bootstrap/shabr/img/balloon-2.jpg";
     text-align: center;
     font-family: monospace;
     color: black;
@@ -55,11 +51,23 @@ h4 {
     color: white;
 }
 
-/*small*/
+.container {
+    text-align: center;
+    font-family: flamenco;
+    font-size: 20px;
+    color: black;
+}
+
+address{
+    font-family: flamenco;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
 
 @media only screen and (min-width: 768px) {
     h1 {
-        font-size: 20px;
+        font-size: 40px;
     }
     h2 {
         font-size: 70px;
@@ -71,13 +79,12 @@ h4 {
 }
 
 
-/*medium*/
 
 @media only screen and (min-width: 992px) {
     h1 {
-        font-size: 70px;
+        font-size: 60px;
     }
     h2 {
-        font-size: 50px;
+        font-size: 80px;
     }
 }
